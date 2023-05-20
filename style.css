@@ -1,0 +1,352 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+}
+body{
+    background: rgb(203, 200, 200);
+}
+.header{
+    width: 100%;
+    height: 35vh;
+    position: sticky;
+}
+.top-navigation{
+    background: #000;
+    width: 100%;
+    height: 60px;
+
+}
+.top-navigation .nav-link{
+    margin-left: 130px;
+}
+.top-navigation ul li{
+    list-style: none;
+    text-align: left;
+    float: left;
+    padding-top: 15px;
+    padding-left: 13px;
+    cursor: pointer;
+}
+.top-navigation ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: serif;
+    font-size: 15px;
+}
+.top-navigation ul li a:hover{
+    color: lightgreen;
+    cursor: pointer;
+}
+.top-navigation .button{
+    margin-top: -598px;
+    display: grid;
+    grid-template-columns: repeat(4, 0.2fr);
+    grid-gap: 10px;
+}
+.top-navigation .button button{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    height: 25px;
+    text-align: center;
+    margin-left: 20px;
+    cursor: pointer;
+    color: white;
+}
+.top-navigation .button .sahl{
+    background: darkgreen;
+    width: 200px;
+
+}
+.top-navigation .button .internet{
+    background-color: aqua;
+    width: 150px;
+
+}
+.top-navigation .button .jiari{
+    background: #000000c7;
+}
+.top-navigation .button .vooma{
+    background: purple;
+}
+.primary-navigation{
+    width: 100%;
+    background: rgb(8, 59, 61);
+    color: aliceblue;
+    height: 130px;
+}
+.primary-navigation .icon .bank{
+    font-size: 33px;
+    position: relative;
+    top: -55px;
+    font-weight: 800;
+    
+
+}
+.primary-navigation .icon  img{
+    width: 180px;
+    height: 110px;
+    position: relative;
+    top: -28px;
+    margin-left: -550px;
+}
+.primary-navigation .nav-link-main{
+    margin-top: -580px;
+    margin-left: -950px;
+}
+.primary-navigation ul li{
+    list-style: none;
+    text-align: left;
+    float: left;
+    padding: 0px 10px;
+}
+.primary-navigation ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+.header  .select-1{
+    outline: none;
+    background: transparent;
+    position: relative;
+    top: -35rem;
+    color: aliceblue;    
+    height: 40px;
+    border: none;
+
+}
+.header .select-1 option{
+    background: transparent;
+    color: gray;
+}
+
+.baner{
+    position: relative;
+    top: -40px;
+    height: 50vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0,0.6), rgb(0,0,0,0.6)),url(image/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.baner .box-baner{
+    position: sticky;
+    width: 80%;
+    left: 20%;
+    height: 10vh;
+    background:yellowgreen;
+
+
+}
+.baner h1{
+    position: absolute;
+    color: whitesmoke;
+    font-size: 2.5rem;
+    font-weight: bold;
+    left: 20%;
+}
+.baner .box-baner-2 {
+    left: 20%;
+    top: 100px;
+    display: block;
+    position: relative;
+    width: 250px;
+    height: 60px;
+    background: yellowgreen;
+}
+.box-baner-2 h2{
+    position: relative;
+    top: -25.6rem;
+    left: 10px;
+    color: blanchedalmond;
+}
+.box-baner-2 img{
+    position: relative;
+    height: 40px;
+    border-radius: 80px;
+    width: 50px;
+    top: -37.5rem;
+    cursor: pointer;
+    left: 140px;
+}
+.grid-display{
+    display: grid;
+    grid-template-columns: repeat(6, 1.5fr);
+    border: 4fr solid gray;
+    position: relative;
+    
+    left: -1000px;
+    top: -4.5rem;
+}
+
+.grid-display div>.card{
+    background: white;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+}
+.grid-display div  .card> span{
+    color: green;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    
+}
+.grid-display div .card>img{
+    height: 60px;
+    padding-top: 10px;
+    width: 120px;
+    animation: 400ms ease;
+}
+.grid-display .card img:hover{
+    border-radius : 80px ;
+}
+.grid-display div .card:hover{
+    cursor: pointer;
+    width: 120px;
+    height: 80px;
+    
+}
+.content .small-navigation{
+    top: -30rem;
+    width: 680px;
+    position: relative;
+    display: block;
+    height: 170px;
+    left: 20rem;
+    justify-content: space-between;
+}
+.content .small-navigation a{
+    color: gray;
+    text-decoration: none;
+    padding-left: 10px;
+    font-size: 34px;
+}
+.content .small-navigation a:active{
+    width: 20px;
+    background: rgba(8, 177, 20, 0.345);
+}
+.active{
+    background: rgba(8, 177, 20, 0.345);   
+    border-bottom: 2px solid green;
+}
+.content .sidebar{
+    z-index: 6;
+    margin-top: -590px;
+    position: initial;
+    height: 80vh;
+    width: 300px;
+    background: rgb(12, 68, 70);
+}
+
+.content .grid-display-2{
+    display: grid;
+    position: absolute;
+    grid-gap: 10px;
+    top: 50rem;
+    margin-left: 200px;
+    grid-template-columns: repeat(3, 4fr);
+}
+.content .grid-display-2 >div{
+    width: 300px;
+    height: 40vh;
+    background: white;
+}
+.content .grid-display-2 div>.text{
+    border-top: 1px solid green;
+    height: 40px;
+}
+.content .grid-display-2 div >.text h1{
+    color: yellowgreen;
+    font-size: 25px;
+    text-align: center;
+}
+.content .grid-display-2 div> .text p{
+    position: relative;
+    top: -35rem;
+    left: 20px;
+}
+.content .grid-display-2 div>img{
+    width: 300px;
+    height: 150px;
+}
+.content  .grid-display-2 div>.footer-btn{
+    width: 300px;
+    height: 37px;
+    margin-top: 48px;
+    background: rgb(119, 191, 11);
+    cursor: pointer;
+
+}
+
+.content .grid-display-2 div>.footer-btn p{
+    color: aliceblue;
+    padding-left: 50px;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.content .grid-display-2 div>.arrow{
+    position: absolute;
+    height: 36px;
+    width: 60px;
+    text-align: center;
+    top: 15rem;
+    color: azure;
+    background: green;
+    margin-left: 240px;
+    border-left: 1px groove whitesmoke;
+}
+.content .grid-display-2 div>.arrow i{
+    padding-top: 10px;
+}
+.connected{
+    width: 100%;
+    height: 70vh;
+    position: absolute;
+    top: 78rem;
+    color:white;
+    display: grid;
+    grid-template-columns: repeat(2,8fr);
+    background: yellowgreen;
+}
+.connected .infor{
+    padding-left: 90px;
+    padding-top: 1.5rem;
+    height: 40px;
+    display: block;
+}
+.connected .infor p{
+    position: absolute;
+    top: 6.8rem;
+    width: 500px;
+}
+.connected .infor .provide{
+    position: absolute;
+    top: 11.1rem;
+}
+.connected  .infor ol{
+    margin-left: 4px;
+
+    position: absolute;
+    top: 13.5rem;
+}
+.connected .infor ol li{
+    
+    position: absolute;
+    padding: 10px 10px;
+    width: 560px;
+
+}
+
+.connected .phone img{
+    width: 400px;
+    height: 370px;
+    padding-top: 2.8rem;
+}
+@media screen  and (max-width: 1023px){
+    *{
+        width: 500px;
+    }
+}
